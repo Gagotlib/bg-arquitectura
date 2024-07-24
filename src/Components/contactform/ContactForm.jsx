@@ -13,6 +13,7 @@ function ContactForm() {
 	return (
 		<>
 			<form onSubmit={handleSubmit} className={styles.contactForm}>
+				<p style={{fontSize: '1.5rem'}}>Escribenos tu consulta y te responderemos a la brevedad</p>
 				<input type='text' name='name' id='name' placeholder='Nombre' value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
 				<label htmlFor='name'></label>
 				<input type='email' name='email' id='email' placeholder='Email' value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
@@ -21,7 +22,7 @@ function ContactForm() {
 					name='message'
 					id='message'
 					cols='30'
-					rows='10'
+					rows='5'
 					placeholder='Escribe tu consulta'
 					value={formData.message}
 					onChange={(e) => setFormData({ ...formData, message: e.target.value })}
