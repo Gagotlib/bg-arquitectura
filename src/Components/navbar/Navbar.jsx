@@ -9,7 +9,7 @@ export default function Navbar() {
 
 	return (
 		<header className={styles.header}>
-			<img src='public/img/bg.jpg' onClick={(e) => handleScroll(e, '#home')}></img>
+			<img src='/img/bg.jpg' onClick={(e) => handleScroll(e, '#home')}></img>
 
 			<a href='#projects' onClick={(e) => handleScroll(e, '#projects')}>
 				Proyectos
