@@ -12,10 +12,12 @@
     padding: 1rem 2rem ;
     font-size: large;
     border-radius: 10px;
+    border: none !important;
   }
   textarea {
     padding: 1rem 2rem ;
     font-size: large;
+    border: none;
     border-radius: 10px;
     
   }
@@ -25,7 +27,8 @@
     font-size: large;
     width: 10rem;
     border-radius: 10px;
-    background-color: rgb(152, 239, 22);
+    color: white;
+    background-color: #004385;
     
   }
 }

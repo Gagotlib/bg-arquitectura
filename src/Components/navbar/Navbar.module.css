@@ -5,13 +5,16 @@
 	height: 80px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 10rem;
 	position: fixed;
 	width: 100%;
 
 	@media screen and (max-width: 600px) {
 		/* display: none; */
 		position: fixed !important;
+		justify-content: space-around;
+		gap:0;
 		/* bottom: -90px; */
 		width: 100%;
 	}
